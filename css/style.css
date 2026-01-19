@@ -116,6 +116,14 @@ p {
     height: 80vh;
 }
 
+.two-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    width: 100%;
+}
+
 /* Base Cards & Grids */
 .gallery-grid {
     display: grid;
